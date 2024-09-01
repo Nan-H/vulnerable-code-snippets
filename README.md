@@ -33,7 +33,7 @@ https://dojo-yeswehack.com/Playground#eyJkZXNjcmlwdGlvbiI6IldvcmtzIGluIG1vc3Qgb3
 By default, all vulnerable code snippets contain a docker setup that isolates the code from your host system and make it safe to run (*read more in the section : "Run a vulnerable code snippet"*).
 
 ## Twitter (X) posts
-A Collection of all vulnerable code snippets posted on our Twitter 📂  
+A Collection of all vulnerable code snippets posted on our Twitter ! 📂  
 
 | ID | Vulnerability | Description |
 |---|---|---|
