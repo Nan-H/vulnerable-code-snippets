@@ -15,11 +15,11 @@ def searchResult():#<-Dummy function
 
 
 def NoItemFound(s):
-    tpl = ('''
+    tpl = '''
     <script src="{{ domain }}/main.js"></script>
-    <h3 id="search">No result for: %s</h3>
-    ''' % s)
-    return render_template_string(tpl, domain=request.url_root)
+    <h3 id="search">No result for: {{ search }}</h3>
+    '''
+    return render_template_string(tpl, domain=request.url_root, search=s)
 
 @app.route('/')
 def index():
